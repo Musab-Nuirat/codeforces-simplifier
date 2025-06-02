@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Codeforces Simplifier</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Codeforces Simplifier</h1>
+    <div class="form-group">
+      <label for="apiKey">Google Gemini API Key:</label>
+      <input type="password" id="apiKey" placeholder="Enter your API key">
+    </div>
+    <button id="saveButton">Save API Key</button>
+    <div id="status" class="status"></div>
+    <p class="info">This extension adds a "Simplify" button to Codeforces problem pages.</p>
+    <button id="popupSimplifyButton" style="margin-top:10px;">Simplify Problem (from popup)</button>
+    <div id="popupSimplifiedResult" style="margin-top:10px;"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

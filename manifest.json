@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Codeforces Simplifier",
+  "version": "1.0",
+  "description": "Simplifies Codeforces problem statements using Google Gemini API",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://codeforces.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://codeforces.com/problemset/problem/*", "https://codeforces.com/contest/*/problem/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

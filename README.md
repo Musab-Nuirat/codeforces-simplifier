@@ -79,8 +79,7 @@ Done! You should now see the extension active.
 
 ## Contribute
 
-Want to help improve it?  
-Whether you’re a developer, translator, or someone who just cares about junior devs—PRs are welcome.
+Want to help improve it? PRs are welcome.
 
 ---
 

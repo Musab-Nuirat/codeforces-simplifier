@@ -73,6 +73,9 @@ chrome://extensions/
 
 5. Click “Load unpacked” and select the unzipped project folder.
 
+6. Add your Gemeni API Key [from here](https://aistudio.google.com/apikey) and save it.
+
+
 Done! You should now see the extension active.
 
 ---
